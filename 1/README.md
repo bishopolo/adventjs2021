@@ -1,7 +1,7 @@
 # 🎯 1 Contando ovejas para dormir 🐑🐑🐑
 
 
-|[Link reto 🔗](https://2021.adventjs.dev/challenges/01)|[Solucion 👨🏻‍💻](#solucion) |[Inicio 🏠](../README.md)|
+|[Link reto 🔗](https://2021.adventjs.dev/challenges/01)|[Solucion 👨🏻‍💻](#solución) |[Inicio 🏠](../README.md)|
 |-|-|-|
 
 Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz una función que devuelva una lista con todas las ovejas que sean de color **rojo** y que además su nombre contenga tanto las letras **n** Y **a**, sin importar el orden, las mayúsculas o espacios.
@@ -31,9 +31,9 @@ console.log(ovejasFiltradas);
 
 Recuerda. Debe contener las dos letras 'a' y 'n' en el nombre. No cuentes ovejas que sólo tenga una de las letras, debe tener ambas.
 
-## Solucion
+## Solución
 
-1️⃣ Creamos una interface para que solo el objeto de ovejas tenga las dos propiedades **name**, **color** y ambas sean del tipo string, esto se lo pasamos al parametro de la funcion que creamos y al retorno de la misma para que solo retorne un array de ese tipo de objetos
+1️⃣ Creamos una interface para que solo el objeto de ovejas tenga las dos propiedades **name**, **color** y ambas sean del tipo string, esto se lo pasamos al parámetro de la función que creamos y al retorno de la misma para que solo retorne un array de ese tipo de objetos
 
 ```ts
 interface typeOvejas {
@@ -87,7 +87,7 @@ console.log(contarOvejas(ovejas));
 */
 ```
 
-3️⃣ Otra alternativa es hacer un filter, de esta forma es mas sencillo ya que no tenemos que crear un array nuevo y pushear los valores como lo haciamos atras, con filter podemos retornar directamente
+3️⃣ Otra alternativa es hacer un filter, de esta forma es mas sencillo ya que no tenemos que crear un array nuevo y pushear los valores como lo hacíamos atras, con filter podemos retornar directamente
 
 ```ts
 function contarOvejas(objOvejas: typeOvejas[]): typeOvejas[] {
