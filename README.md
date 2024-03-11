@@ -2,7 +2,7 @@
 # Soluciones del adventjs 2021
 
 > [!NOTE]  
-> Este repositorioes fue creado el 10 de marzo del 2024
+> Este repositorio fue creado el 10 de marzo del 2024
 
 > [!IMPORTANT]  
 > Soy nuevo programando por lo cual pueden ver códigos no muy óptmios y algo verbosos.
