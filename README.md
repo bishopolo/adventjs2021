@@ -1,3 +1,17 @@
-# Soluciones del adventjs2021 by bishopolo
 
-Voy a ir solucionando poco a poco cada uno de los retos del adventjs2021 using typescript, aclaro que soy nuevo programando por lo cual pueden ver códigos no muy óptmios y algo verbosos.
+# Soluciones del adventjs 2021
+
+> [!NOTE]  
+> Este repositorioes fue creado el 10 de marzo del 2024
+
+> [!IMPORTANT]  
+> Soy nuevo programando por lo cual pueden ver códigos no muy óptmios y algo verbosos.
+
+Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
+
+
+[adventjs 2021 🔗](https://2021.adventjs.dev/)
+
+|Reto adventjs 2021 | Dificultad |
+|:--:| :--:|
+| [🎯 1️⃣ Contando ovejas para dormir 🐑🐑🐑](./1/README.md) | Facil |
