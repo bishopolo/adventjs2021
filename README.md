@@ -1,6 +1,8 @@
 
 # Soluciones del adventjs 2021
 
+![adventsjs hero](images/adventjsHero.webp)
+
 > [!NOTE]  
 > Este repositorio fue creado el 10 de marzo del 2024
 
