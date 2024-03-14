@@ -14,7 +14,8 @@ Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 
 
 
-|Reto adventjs 2021 🎯 | Dificultad 🥉🥈🥇| Creado 🌱 |
-|:--:| :--:|:--:|
-| [🎯 1️⃣ Contando ovejas para dormir 🐑🐑🐑](./1/README.md) | Facil | 10/03/2024
-| [🎯 2️⃣ Ayuda al elfo a contar los regalos 🎁🎁🎁](./1/README.md) | Facil | 12/03/2024
+| Reto adventjs 2021 🎯 | Dificultad 🥉🥈🥇| Creado 🌱 |
+|:--:| :--:|--:|
+| [🎯 1️⃣ Contando ovejas para dormir 🐑🐑🐑](./1/README.md) | Facil 🥉 | 10/03/2024
+| [🎯 2️⃣ Ayuda al elfo a contar los regalos 🎁🎁🎁](./2/README.md) | Facil 🥉 | 12/03/2024
+| [ 🎯 3️⃣ El Grinch quiere fastidiar la Navidad 👹👹👹](./3/README.md) | Normal 🥈 | 12/03/2024
