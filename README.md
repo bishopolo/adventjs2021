@@ -1,7 +1,7 @@
 
-# Soluciones del adventjs 2021
+# Soluciones del [adventjs 2021 🔗](https://2021.adventjs.dev/)
 
-![adventsjs hero](images/adventjsHero.webp)
+[![adventsjs hero](images/adventjsHero.webp)](https://2021.adventjs.dev/)
 
 > [!NOTE]  
 > Este repositorio fue creado el 10 de marzo del 2024
@@ -13,7 +13,6 @@
 Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 
 
-[adventjs 2021 🔗](https://2021.adventjs.dev/)
 
 |Reto adventjs 2021 🎯 | Dificultad 🥉🥈🥇| Creado 🌱 |
 |:--:| :--:|:--:|
