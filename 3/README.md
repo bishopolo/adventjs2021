@@ -45,7 +45,7 @@ function isValid(letter: string) {
 }
 ```
 
-2️⃣ en este paso ya sabemos que hay parentesis `()`, ahora tenemos que verificar que no contenga `[,],{,},(,)` para esto vamos a crear un regex que nos simplifica el trabajo ya que la otra forma sería hacer `includes('{')` por cada uno de los carácteres entonces sería muy extensa la sentencia.
+2️⃣ en este paso ya sabemos que hay paréntesis `()`, ahora tenemos que verificar que no contenga `[,],{,},(,)` para esto vamos a crear un regex que nos simplifica el trabajo ya que la otra forma sería hacer `includes('{')` por cada uno de los carácteres entonces sería muy extensa la sentencia.
 
 ```ts
 function isValid(letter: string): boolean {
