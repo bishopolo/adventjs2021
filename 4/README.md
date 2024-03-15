@@ -36,7 +36,7 @@ Ten en cuenta que el árbol es un string y necesitas los saltos de línea `\n` p
 
 ## Solución
 
-1. primero creamos una variable para nuestro árbol, luego creamos un array con todos los número impares desde el 1 hasta el 100, que esa es la altura máxima de nuestro árbol
+1️⃣ primero creamos una variable para nuestro árbol, luego creamos un array con todos los número impares desde el 1 hasta el 100, que esa es la altura máxima de nuestro árbol
 
 ```ts
 function createXmasTree(height: number) {
@@ -48,7 +48,7 @@ function createXmasTree(height: number) {
 }
 ```
 
-2. luego obtenemos el número máximo de líneas que va a tener nuestro arbol, y esto se obtiene es en el array de impares que creamos, el índice va a ser el parámetro que nos pasan que es `height`.
+2️⃣ luego obtenemos el número máximo de líneas que va a tener nuestro arbol, y esto se obtiene es en el array de impares que creamos, el índice va a ser el parámetro que nos pasan que es `height`.
 
 ```ts
 function createXmasTree(height: number) {
@@ -61,7 +61,7 @@ function createXmasTree(height: number) {
 }
 ```
 
-3. acá ya iniciamos a llenar nuestro árbol, creamos un`for` para la altura de nuestro arbol, y en este tambien creamos una variable que va a iniciar en 1 y se incrementa de 2 en 2 cada vez que se itera, ya que esta nos indica la cantidad de `*` que va a tener nuestro árbol, creamos un variable para el contenido, y luego tenemos que calcular luego la cantidad de `_` que va a tener cada fila del árbol
+3️⃣ acá ya iniciamos a llenar nuestro árbol, creamos un`for` para la altura de nuestro arbol, y en este tambien creamos una variable que va a iniciar en 1 y se incrementa de 2 en 2 cada vez que se itera, ya que esta nos indica la cantidad de `*` que va a tener nuestro árbol, creamos un variable para el contenido, y luego tenemos que calcular luego la cantidad de `_` que va a tener cada fila del árbol
 y finalmente una variable que nos va ayudar para saber si ya se llenó la fila con los `*`
 
 ```ts
@@ -82,7 +82,7 @@ function createXmasTree(height: number) {
   }
 ```
 
-4. ahora lo que hacemos es crear otro `for` para recorrer por cada fila según el ancho que va a tener el árbol, verificamos que `j` sea menor o igual que la cantidad de `_` que tiene al inicio el árbol, cuando ya es mayor significa que ya tiene que rellenar con `*`, pero acá tenemos que verificar que sea la cantidad correcta y por eso usamos la variable `tmp` que inicia en 1 y se va incrementando si es que es mas de un `*`, al completar la cantidad necesaria en cada fila significa que debe terminar de rellenar con `_` el final de la fila, luego ya agregamos todo el contenido y al final del primer for agregamos `\n` para que la siguiente iteración inicie en una nueva línea.
+4️⃣ ahora lo que hacemos es crear otro `for` para recorrer por cada fila según el ancho que va a tener el árbol, verificamos que `j` sea menor o igual que la cantidad de `_` que tiene al inicio el árbol, cuando ya es mayor significa que ya tiene que rellenar con `*`, pero acá tenemos que verificar que sea la cantidad correcta y por eso usamos la variable `tmp` que inicia en 1 y se va incrementando si es que es mas de un `*`, al completar la cantidad necesaria en cada fila significa que debe terminar de rellenar con `_` el final de la fila, luego ya agregamos todo el contenido y al final del primer for agregamos `\n` para que la siguiente iteración inicie en una nueva línea.
 
 ```ts
 function createXmasTree(height: number) {
@@ -117,7 +117,7 @@ function createXmasTree(height: number) {
 }
 ```
 
-4. ya para terminar lo que tenemos que hacer es la parte del tronco, para esto debemos tambien crear dos `for`, pero con la ventaja que sabemos que siempre el tronco va a tener solo un `#`, lo que cambia en esta parte es que al momento de rellenar con `#` decimos que sea igual a 1 ya que solo es esa cantidad la necesaria, y la variable `tmp` la ponemos en `0` para que siga con el relleno final que son los `_`
+5️⃣ ya para terminar lo que tenemos que hacer es la parte del tronco, para esto debemos tambien crear dos `for`, pero con la ventaja que sabemos que siempre el tronco va a tener solo un `#`, lo que cambia en esta parte es que al momento de rellenar con `#` decimos que sea igual a 1 ya que solo es esa cantidad la necesaria, y la variable `tmp` la ponemos en `0` para que siga con el relleno final que son los `_`
 
 ```ts
 function createXmasTree(height: number) {

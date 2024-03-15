@@ -59,6 +59,7 @@ function createXmasTree(height: number) {
 }
 
 console.log(createXmasTree(10))
+
 /* 
 __*__
 _***_
