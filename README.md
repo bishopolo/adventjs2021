@@ -22,3 +22,4 @@ Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 | [ 🎯 4️⃣ ️¡Es hora de poner la navidad en casa! 🎄🎄🎄](./4/README.md) | Normal 🥈 | 14/03/2024
 | [🎯 5️⃣ Contando los días para los regalos ⏰⏱️⏳](./5/README.md) | Fácil 🥉 | 14/03/2024
 | [🎯 6️⃣ Rematando los exámenes finales 🧮🧮🧮](./6/README.md) | Normal 🥈 | 15/03/2024
+| [🎯 7️⃣ Buscando en el almacén 🏪🏪🏪](./7/README.md) | Normal 🥈| 17/03/2024
