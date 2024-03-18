@@ -45,7 +45,7 @@ Ten en cuenta que la tienda es enorme. Tiene diferentes almacenes y, como has vi
 
 ## Solución
 
-primero aclarar que este ejercicio se me hizo complicado ya que la forma mas óptima que pensaba era recursividad, pero no podia solucionarlo porque si lo hacia como pensaba tenia que crear una variable por fuera de la funcioón porque si la creaba adentro se volvia a crear de nuevo, entonces hice fue crear un `clousure`
+primero aclarar que este ejercicio se me hizo complicado ya que la forma mas óptima que pensaba era recursividad, pero no podia solucionarlo porque si lo hacía como pensaba tenía que crear una variable por fuera de la función porque si la creaba adentro se volvía a crear de nuevo, entonces creé un `clousure`
 
 1️⃣ crear una variable que contiene un array donde vamos a ir guardando los valores que vamos encontrando en el objeto
 
