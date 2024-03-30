@@ -1,24 +1,24 @@
-function isValid(letter) {
-    var getIndexofFirstParenthesis = letter.indexOf("(") + 1;
-    var getIndexofLastParenthesis = letter.indexOf(")");
-    var stringInsideParenthesis = letter.slice(getIndexofFirstParenthesis, getIndexofLastParenthesis);
-    var regex = /[\{\}\[\]\(\)]/;
-    if (getIndexofLastParenthesis !== -1) {
-        if (regex.test(stringInsideParenthesis))
-            return false;
-        if (stringInsideParenthesis.length)
-            return true;
+"use strict";
+const carta = "bici coche balón _playstation bici coche peluche ";
+function listGifts(letter) {
+    let cartaObjeto = {};
+    let arr = letter.trim().split(" ").filter((el) => !el.startsWith("_"));
+    for (let word of arr) {
+        if (!(word in cartaObjeto)) {
+            cartaObjeto[word] = 1;
+        }
+        else {
+            cartaObjeto[word]++;
+        }
     }
-    return false;
+    return cartaObjeto;
 }
-console.log(isValid("peluche bici coche bici coche balón"));
+console.log(listGifts(carta));
 /*
-"bici coche (balón) bici coche peluche" // -> ✅
-"(muñeca) consola bici" // ✅
-
-"bici coche (balón bici coche" // -> ❌
-"peluche (bici [coche) bici coche balón" // -> ❌
-"(peluche {) bici" // -> ❌
-"() bici" // ❌
-"(()) bici"
+{
+  bici: 2,
+  coche: 2,
+  balón: 1,
+  peluche: 1
+}
 */

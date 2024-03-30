@@ -9,14 +9,14 @@ function contains(store: any, product: string) {
       }
       if (typeof tmpItem === "object") {
         x(tmpItem, product);
-      } 
+      }
     }
   }
   x(store, product);
 
   return allProducts.includes(product) ? true : false;
 
-  // the best solution, i found it on internet. 
+  // the best solution, i found it on internet.
   // for (let key in store) {
   //   if (typeof store[key] === "object") {
   //     if (contains(store[key], product)) {
@@ -47,7 +47,6 @@ const almacen = {
 };
 
 console.log(contains(almacen, "camiseta")); // true
-
 
 /* 
 

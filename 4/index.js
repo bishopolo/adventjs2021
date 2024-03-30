@@ -1,15 +1,16 @@
+"use strict";
 function createXmasTree(height) {
-    var tree = "";
-    var odd = [];
-    for (var i = 0, j = 1; i < 99; i++, j += 2) {
+    let tree = "";
+    let odd = [];
+    for (let i = 0, j = 1; i < 99; i++, j += 2) {
         odd.push(j);
     }
-    var getMaxLines = odd[height - 1];
-    for (var i = 0, a = 1; i < height; i++, a += 2) {
-        var content = '';
-        var ltp = (getMaxLines - a) / 2;
-        var tmp = 1;
-        for (var j = 1; j <= getMaxLines; j++) {
+    let getMaxLines = odd[height - 1];
+    for (let i = 0, a = 1; i < height; i++, a += 2) {
+        let content = '';
+        let ltp = (getMaxLines - a) / 2;
+        let tmp = 1;
+        for (let j = 1; j <= getMaxLines; j++) {
             if (j <= ltp) {
                 content = '_';
             }
@@ -26,11 +27,11 @@ function createXmasTree(height) {
         }
         tree += "\n";
     }
-    for (var i = 0; i < 2; i++) {
-        var content = '';
-        var ltp = (getMaxLines - 1) / 2;
-        var tmp = 1;
-        for (var j = 1; j <= getMaxLines; j++) {
+    for (let i = 0; i < 2; i++) {
+        let content = '';
+        let ltp = (getMaxLines - 1) / 2;
+        let tmp = 1;
+        for (let j = 1; j <= getMaxLines; j++) {
             if (j <= ltp) {
                 content = '_';
             }

@@ -1,30 +1,30 @@
-function isValid(letter: string): boolean {
-  let getIndexofFirstParenthesis = letter.indexOf("(") + 1;
-  let getIndexofLastParenthesis = letter.indexOf(")");
-  let stringInsideParenthesis = letter.slice(
-    getIndexofFirstParenthesis,
-    getIndexofLastParenthesis
-  );
+type stringArray = string[];
+// type cartaArray = Record<string, number>
+interface cartaArray {
+  [key: string]: number;
+}
+const carta = "bici coche balón _playstation bici coche peluche ";
 
-  let regex = /[\{\}\[\]\(\)]/;
+function listGifts(letter: string): cartaArray {
+  let cartaObjeto: cartaArray = {};
+  let arr: stringArray = letter.trim().split(" ").filter((el) => !el.startsWith("_"));
 
-  if (getIndexofLastParenthesis !== -1) {
-    if (regex.test(stringInsideParenthesis)) return false;
-    if (stringInsideParenthesis.length) return true;
+  for (let word of arr) {
+    if (!(word in cartaObjeto)) {
+      cartaObjeto[word] = 1;
+    } else {
+      cartaObjeto[word]++;
+    }
   }
-
-  return false;
+  return cartaObjeto;
 }
 
-console.log(isValid("peluche bici coche bici coche balón"));
-
+console.log(listGifts(carta));
 /*
-"bici coche (balón) bici coche peluche" // -> ✅
-"(muñeca) consola bici" // ✅
-
-"bici coche (balón bici coche" // -> ❌
-"peluche (bici [coche) bici coche balón" // -> ❌
-"(peluche {) bici" // -> ❌
-"() bici" // ❌
-"(()) bici" 
+{
+  bici: 2,
+  coche: 2,
+  balón: 1,
+  peluche: 1
+}
 */

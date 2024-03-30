@@ -1,9 +1,10 @@
+"use strict";
 function daysToXmas(date) {
-    var targetDate = new Date('Dec 25, 2021');
-    var miliseconds = +targetDate - +date;
+    let targetDate = new Date('Dec 25, 2021');
+    let miliseconds = +targetDate - +date;
     return Math.ceil(miliseconds / 1000 / 60 / 60 / 24);
 }
-var date1 = new Date("Dec 23, 2021 23:59:59");
+const date1 = new Date("Dec 23, 2021 23:59:59");
 console.log(daysToXmas(date1));
 /*
 const date1 = new Date('Dec 1, 2021')

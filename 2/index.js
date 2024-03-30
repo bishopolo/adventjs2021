@@ -1,9 +1,9 @@
-var carta = "bici coche balón _playstation bici coche peluche ";
+"use strict";
+const carta = "bici coche balón _playstation bici coche peluche ";
 function listGifts(letter) {
-    var cartaObjeto = {};
-    var arr = letter.trim().split(" ").filter(function (el) { return !el.startsWith("_"); });
-    for (var _i = 0, arr_1 = arr; _i < arr_1.length; _i++) {
-        var word = arr_1[_i];
+    let cartaObjeto = {};
+    let arr = letter.trim().split(" ").filter((el) => !el.startsWith("_"));
+    for (let word of arr) {
         if (!(word in cartaObjeto)) {
             cartaObjeto[word] = 1;
         }

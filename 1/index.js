@@ -1,4 +1,5 @@
-var ovejas = [
+"use strict";
+const ovejas = [
     { name: "Noa", color: "azul" },
     { name: "Euge", color: "rojo" },
     { name: "Navidad", color: "rojo" },
@@ -24,7 +25,7 @@ var ovejas = [
 //   return newArrayOvejas;
 // }
 function contarOvejas(objOvejas) {
-    return objOvejas.filter(function (val) {
+    return objOvejas.filter((val) => {
         if (val.color === "rojo") {
             if (val.name.toLocaleLowerCase().includes("a") &&
                 val.name.toLocaleLowerCase().includes("n")) {

@@ -1,8 +1,9 @@
+"use strict";
 function sumPairs(numbers, result) {
-    var lengthArray = numbers.length - 1;
-    var finalArray = [];
-    for (var i = 0; i <= lengthArray; i++) {
-        for (var j = i + 1; j <= lengthArray; j++) {
+    let lengthArray = numbers.length - 1;
+    let finalArray = [];
+    for (let i = 0; i <= lengthArray; i++) {
+        for (let j = i + 1; j <= lengthArray; j++) {
             if (numbers[i] + numbers[j] === result) {
                 finalArray.push(numbers[i]);
                 finalArray.push(numbers[j]);

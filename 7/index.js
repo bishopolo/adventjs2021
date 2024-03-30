@@ -1,70 +1,27 @@
-function contains(store, product) {
-    var allProducts = [];
-    function x(store, product) {
-        for (var item in store) {
-            var tmpItem = store[item];
-            if (product === tmpItem) {
-                allProducts.push(tmpItem);
-            }
-            if (typeof tmpItem === "object") {
-                x(tmpItem, product);
+"use strict";
+function sumPairs(numbers, result) {
+    let lengthArray = numbers.length - 1;
+    let finalArray = [];
+    for (let i = 0; i <= lengthArray; i++) {
+        for (let j = i + 1; j <= lengthArray; j++) {
+            if (numbers[i] + numbers[j] === result) {
+                finalArray.push(numbers[i]);
+                finalArray.push(numbers[j]);
             }
         }
+        if (finalArray.length === 2)
+            break;
     }
-    x(store, product);
-    return allProducts.includes(product) ? true : false;
-    // the best solution, i found it on internet. 
-    // for (let key in store) {
-    //   if (typeof store[key] === "object") {
-    //     if (contains(store[key], product)) {
-    //       return true;
-    //     }
-    //   } else if (store[key] === product) {
-    //     return true;
-    //   }
-    // }
-    // return false;
+    return finalArray.length ? finalArray : null;
 }
-var almacen = {
-    estanteria1: {
-        cajon1: {
-            producto1: "coca-cola",
-            producto2: "fanta",
-            producto3: "sprite",
-        },
-    },
-    estanteria2: {
-        cajon1: "vacio",
-        cajon2: {
-            producto1: "pantalones",
-            producto2: "camiseta",
-        },
-    },
-};
-console.log(contains(almacen, "camiseta")); // true
+sumPairs([-3, -2, 7, -5], 10); // null
+sumPairs([3, 5, 7, 2], 10); // [3, 7]
 /*
-
-esto genera un error, ya que solo da true si el uúltimo es el que deseamos si dda true, pero si estaá en otro lugar da false
-
-let isProduct = false;
-function contains(store: any, product:string):boolean {
-  
-   for (let item in store){
-    let tmpItem = store[item];
-    if (product === tmpItem) {
-       isProduct = true;
-    }else {
-      isProduct = false;
-    }
-  
-    if (typeof tmpItem === 'object'){
-      contains(tmpItem, product)
-    }
-  }
-
-  return isProduct;
-}
-
-
+sumPairs([-3, -2, 7, -5], 10) // null
+sumPairs([3, 5, 7, 2], 10) // [3, 7]
+sumPairs([-3, -2, 7, -5], 10) // null
+sumPairs([2, 2, 3, 1], 4) // [2, 2]
+sumPairs([6, 7, 1, 2], 8) // [6, 2]
+sumPairs([0, 2, 2, 3, -1, 1, 5], 6) // [1, 5]
 
 */

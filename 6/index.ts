@@ -15,8 +15,8 @@ function sumPairs(numbers: number[], result: number) {
   return finalArray.length ? finalArray : null;
 }
 
-sumPairs([-3, -2, 7, -5], 10) // null
-sumPairs([3, 5, 7, 2], 10) // [3, 7]
+sumPairs([-3, -2, 7, -5], 10); // null
+sumPairs([3, 5, 7, 2], 10); // [3, 7]
 
 /* 
 sumPairs([-3, -2, 7, -5], 10) // null
