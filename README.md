@@ -22,3 +22,4 @@ Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 |         [🎯 7️⃣ Buscando en el almacén 🏪🏪🏪](./7/README.md)          |     Normal 🥈     | 17/03/2024 |
 |     [🎯 8️⃣ La locura de las criptomonedas 🪙🪙🪙 ](./8/README.md)     |     Normal 🥈     | 24/03/2024 |
 |       [🎯 9️⃣ Agrupando cosas automáticas 📦📦📦](./9/README.md)       |    Dificil 🥇     | 27/03/2024 |
+|       [🎯 1️⃣0️⃣ La maquina de cambio 🪙🪙🪙](./10/README.md)                  |    Dificil 🥇     | 15/05/2024 |
