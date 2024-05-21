@@ -24,4 +24,5 @@ Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 |           [🎯 9️⃣ Agrupando cosas automáticas 📦📦📦](./9/README.md)           |    Dificil 🥇     | 27/03/2024 |
 |             [🎯 1️⃣0️⃣ La maquina de cambio 🪙🪙🪙](./10/README.md)             |    Dificil 🥇     | 15/05/2024 |
 | [🎯 1️⃣1️⃣ ¿Vale la pena la tarjeta fidelidad del cine? 🎫🎫🎫](./11/README.md) |     Normal 🥇     | 16/05/2024 |
-|   [ 🎯 1️⃣2️⃣ La ruta perfecta para dejar los regalos 🚆🚆🚆](./12/README.md)   |    Dificil 🥇     | 16/05/2024 |
+|   [ 🎯 1️⃣2️⃣ La ruta perfecta para dejar los regalos 🚆🚆🚆](./12/README.md)   |    Dificil 🥇     | 19/05/2024 |
+|   [🎯 1️⃣3️⃣ Envuelve regalos con asteriscos 🎁🎁](./13/README.md)   |    Facil 🥇     | 20/05/2024 |
