@@ -26,7 +26,7 @@ Parece fácil con una complejidad de O(n)... ¿crees que podrías hacerlo mejor?
 
 ## Solución
 
-1️⃣ creamos una variable que con tiene todo el array ordenado, luego creamos una variable que contiene el length del array, ya que este cuando es un length de 1 este es la oveja que hace falta, luego creamos un for para recorrer el array ordenado y si el array no tiene el valor en aquella iteracion, significa que esa es la que hace falta
+1️⃣ creamos una variable que con tiene todo el array ordenado, luego creamos una variable que contiene el length del array, ya que este es cuando el for no encuentra el id faltante, usamos el length y esta es la oveja que hace falta, luego creamos un for para recorrer el array ordenado y si el array no tiene el valor en aquella iteracion, significa que esa es la que hace falta
 
 ```ts
 function missingReindeer(ids: number[]) {
