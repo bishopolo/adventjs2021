@@ -27,3 +27,14 @@ Voy a ir solucionando los retos del adventjs 2021 usando TypeScript.
 |   [ 🎯 1️⃣2️⃣ La ruta perfecta para dejar los regalos 🚆🚆🚆](./12/README.md)   |    Dificil 🥇     | 19/05/2024 |
 |        [🎯 1️⃣3️⃣ Envuelve regalos con asteriscos 🎁🎁](./13/README.md)         |     Facil 🥉      | 20/05/2024 |
 |            [🎯 1️⃣4️⃣ En busca del reno perdido 🫎🫎🫎](./14/README.md)            |     Normal 🥈     | 21/05/2024 |
+|            [🎯 1️⃣5️⃣ En busca del reno perdido 🫎🫎🫎](./15/README.md)            |     Normal 🥈     | 29/07/2024 |
+|            [🎯 1️⃣6️⃣ En busca del reno perdido 🫎🫎🫎](./16/README.md)            |     Facil 🥉      | 09/08/2024 |
+|            [🎯 1️⃣7️⃣ En busca del reno perdido 🫎🫎🫎](./17/README.md)            |    Dificil 🥇     | 12/08/2024 |
+|            [🎯 1️⃣8️⃣ En busca del reno perdido 🫎🫎🫎](./18/README.md)            |     Facil 🥉      | 12/08/2024 |
+|            [🎯 1️⃣9️⃣ En busca del reno perdido 🫎🫎🫎](./19/README.md)            |     Normal 🥈     | 15/08/2024 |
+|            [🎯 2️⃣0️⃣ En busca del reno perdido 🫎🫎🫎](./20/README.md)            |     Facil 🥉      | 17/08/2024 |
+|            [🎯 2️⃣1️⃣ En busca del reno perdido 🫎🫎🫎](./21/README.md)            |    Dificil 🥇     | 18/08/2024 |
+|            [🎯 2️⃣2️⃣ En busca del reno perdido 🫎🫎🫎](./22/README.md)            |     Normal 🥈     | 21/08/2024 |
+|            [🎯 2️⃣3️⃣ En busca del reno perdido 🫎🫎🫎](./23/README.md)            | Muy dificil 🥇🥇  | 31/08/2024 |
+|            [🎯 2️⃣4️⃣ En busca del reno perdido 🫎🫎🫎](./24/README.md)            |     Normal 🥈     | 18/08/2024 |
+|            [🎯 2️⃣5️⃣ En busca del reno perdido 🫎🫎🫎](./25/README.md)            |     Normal 🥈     | 22/08/2024 |
